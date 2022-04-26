@@ -62,7 +62,7 @@ resource "aws_eks_node_group" "nodes_general" {
 
   # Name of the EKS Node Group.
   node_group_name = "nodes-general"
-  version ="1.18"
+  #version ="1.18"
   # Amazon Resource Name (ARN) of the IAM Role that provides permissions for the EKS Node Group.
   node_role_arn = aws_iam_role.nodes_general.arn
 
